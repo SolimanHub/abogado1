@@ -1,0 +1,63 @@
+#conocenos {
+    margin-top: var(--espacio_div);
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.container_serv {
+    text-align: center;
+    margin: 5rem;
+}
+
+.con_icon_serv {
+    font-size: 5rem;
+}
+
+#boca {
+   /*border: solid;*/
+    background: url("../img/banner.jpg");
+    height: 300px;
+} 
+
+:root {
+    --espacio_div: 40rem;
+}
+
+#hheader {
+}
+
+#logo {
+    height: 150px;
+    margin-left: 15px;
+    background: url("../img/logo.svg");
+    background-size: 90% 90%;
+    background-repeat:no-repeat;
+}
+
+#nariz {
+    margin: 0px;
+    padding: 0px; 
+    top: 0;
+    position: sticky;
+    z-index: 10000;
+    overflow: hidden;
+}
+
+#ojos {
+}
+
+#servicios{
+    margin-top: var(--espacio_div);
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.search-left{
+    text-align: right;
+}
+
+
+
+
+
+
