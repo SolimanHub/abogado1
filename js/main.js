@@ -4,12 +4,9 @@ $(document).ready(function() {
     document.getElementById('overlay').style.display = 'none';
   });
   //================
-  var name_click = "";
-  var name_click_temp;
 
   $(".container_serv").click(function(){
-    name = $(this).attr('id');
-    document.getElementById('sd').style.display = 'block';
+    document.getElementById('overlay').style.display = 'flex';
   });
 });//fin ready
 
