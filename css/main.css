@@ -26,6 +26,26 @@
 #hheader {
 }
 
+.inf_serv {
+    display: none;
+    position: absolute;
+    top: 0%;
+    background: red; 
+    z-index: 1000;
+}
+
+.inf_serv_pro {
+  background: #f8f8f8;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,.3); 
+  display: block;
+  padding: 3rem;
+  padding-top: 1rem;
+  position: absolute;
+  height: 50%;
+  width: 60%;
+}
+
 #logo {
     height: 150px;
     margin-left: 15px;
@@ -39,25 +59,53 @@
     padding: 0px; 
     top: 0;
     position: sticky;
-    z-index: 10000;
+    z-index: 1000;
     overflow: hidden;
 }
 
 #ojos {
 }
 
+.overlay{
+  background: rgba(0,0,0,.3);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0; 
+  right: 0;
+  display: flex;
+  z-index: 10000;
+  align-items: center;
+  justify-content: center;
+}
+
 #servicios{
     margin-top: var(--espacio_div);
     padding-top: 5rem;
+    position: relative;
     text-align: center;
+}
+ 
+#sd {
+    display: block; 
+    overflow-y: scroll;
+    position: absolute;
+    height: 60%;
+    width: 80%;
+}
+
+#navbar_servicios {
+  margin-top: 0px;
+  padding: 0px; 
+  top: 0;
+  position: sticky;
+  z-index: 1000;
+  overflow: hidden;
 }
 
 .search-left{
     text-align: right;
 }
-
-
-
 
 
 
