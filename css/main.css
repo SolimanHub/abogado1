@@ -19,6 +19,10 @@
     height: 300px;
 } 
 
+#conocenos {
+  padding: 1rem;
+}
+
 :root {
     --espacio_div: 40rem;
 }

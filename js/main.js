@@ -3,6 +3,9 @@ $(document).ready(function() {
   $("#btn_volver").click(function(){
     document.getElementById('overlay').style.display = 'none';
   });
+  $("#navbbar").click(function() {
+    document.getElementById('menuElements').classList.remove('in');
+  })
   //================
 
   $(".container_serv").click(function(){
