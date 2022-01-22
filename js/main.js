@@ -3,7 +3,7 @@ $(document).ready(function() {
   $("#btn_volver").click(function(){
     document.getElementById('overlay').style.display = 'none';
   });
-  $("#navbbar").click(function() {
+  $("#navbbar #menuElements").click(function() {
     document.getElementById('menuElements').classList.remove('in');
   })
   //================
