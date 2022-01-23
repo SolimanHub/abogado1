@@ -1,12 +1,20 @@
-#conocenos {
-    margin-top: var(--espacio_div);
-    padding-top: 5rem;
-    text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+:root {
+    --espacio_div: 40rem;
 }
+#boca {
+    background: url("../img/banner.jpg");
+    height: 300px;
+} 
 
 .container_serv {
-    text-align: center;
-    margin: 5rem;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  margin: 5rem;
 }
 
 .container_serv:hover {
@@ -19,21 +27,30 @@
     font-size: 5rem;
 }
 
-#boca {
-   /*border: solid;*/
-    background: url("../img/banner.jpg");
-    height: 300px;
-} 
-
 #conocenos {
+  font-family: 'Merriweather', serif;
+  margin-top: var(--espacio_div);
+  text-align: center;
+}
+#conocenos #mision p{
+  font-family: 'Merriweather', serif;
+  text-align: justify; 
   padding: 1rem;
 }
-
-:root {
-    --espacio_div: 40rem;
+#conocenos #mision h2{
+  font-family: 'Merriweather', serif;
+}
+#conocenos #vision p{
+  font-family: 'Merriweather', serif;
+  padding: 1rem;
+  text-align: justify; 
+}
+#conocenos #vision h2{
+  font-family: 'Merriweather', serif;
 }
 
-#hheader {
+#servicios h1{
+  font-family: 'Merriweather', serif;
 }
 
 .inf_serv {
@@ -72,8 +89,95 @@
     z-index: 1000;
     overflow: hidden;
 }
+ 
+#navbbar {
+  font-family: 'Merriweather', serif;
+}
 
-#ojos {
+.container_serv:hover {
+    text-align: center;
+    cursor: pointer;
+    margin: 5rem;
+}
+
+.con_icon_serv {
+    font-size: 5rem;
+}
+
+#boca {
+   /*border: solid;*/
+    background: url("../img/banner.jpg");
+    height: 300px;
+} 
+
+#conocenos {
+  padding: 1rem;
+}
+#conocenos #mision p{
+  font-family: 'Merriweather', serif;
+  text-align: justify; 
+  padding: 1rem;
+}
+#conocenos #mision h2{
+  font-family: 'Merriweather', serif;
+}
+#conocenos #vision p{
+  font-family: 'Merriweather', serif;
+  padding: 1rem;
+  text-align: justify; 
+}
+#conocenos #vision h2{
+  font-family: 'Merriweather', serif;
+}
+
+#servicios h1{
+  font-family: 'Merriweather', serif;
+}
+
+.inf_serv {
+    display: none;
+    position: absolute;
+    top: 0%;
+    background: red; 
+    z-index: 1000;
+}
+
+.inf_serv_pro {
+  background: #f8f8f8;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,.3); 
+  display: block;
+  padding: 3rem;
+  padding-top: 1rem;
+  position: absolute;
+  height: 50%;
+  width: 60%;
+}
+
+#logo {
+    height: 150px;
+    margin-left: 15px;
+    background: url("../img/logo.svg");
+    background-size: 90% 90%;
+    background-repeat:no-repeat;
+}
+
+#nariz {
+    margin: 0px;
+    padding: 0px; 
+    top: 0;
+    position: sticky;
+    z-index: 1000;
+    overflow: hidden;
+}
+ 
+#navbar_servicios {
+  margin-top: 0px;
+  padding: 0px; 
+  top: 0;
+  position: sticky;
+  z-index: 1000;
+  overflow: hidden;
 }
 
 .overlay{
@@ -87,6 +191,16 @@
   z-index: 10000;
   align-items: center;
   justify-content: center;
+  font-family: 'Merriweather', serif;
+}
+
+#ojos #titulo_ h1{
+  font-size: 6rem;
+  font-family: 'Roboto Mono', monospace;
+}
+
+#ojos #titulo_ p{
+  font-family: 'Roboto', sans-serif;
 }
 
 #servicios{
@@ -104,18 +218,6 @@
     width: 80%;
 }
 
-#navbar_servicios {
-  margin-top: 0px;
-  padding: 0px; 
-  top: 0;
-  position: sticky;
-  z-index: 1000;
-  overflow: hidden;
-}
-
 .search-left{
     text-align: right;
 }
-
-
-
