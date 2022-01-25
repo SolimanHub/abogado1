@@ -91,6 +91,7 @@
 }
  
 #navbbar {
+  background: #70767B;
   font-family: 'Merriweather', serif;
 }
 
@@ -194,6 +195,16 @@
   font-family: 'Merriweather', serif;
 }
 
+.header{
+  background: rgba(0,0,0,.4);
+  position: absolute;
+  top:0;
+  left: 0;
+  z-index: 1;
+  height: 25.2rem;
+  width: 100%;
+  right:0;
+}
 #ojos #titulo_ h1{
   font-size: 6rem;
   font-family: 'Roboto Mono', monospace;
@@ -221,3 +232,4 @@
 .search-left{
     text-align: right;
 }
+

@@ -1,5 +1,6 @@
 $(document).ready(function() {
   //boton volver en detalles del area
+  var part1 = false;
   $("#btn_volver").click(function(){
     document.getElementById('overlay').style.display = 'none';
   });
@@ -11,8 +12,32 @@ $(document).ready(function() {
   $(".container_serv").click(function(){
     document.getElementById('overlay').style.display = 'flex';
   });
+  $("#btnContacto").click(function(){
+    document.getElementById('part2').style.display = 'block';
+    document.getElementById('part1').style.display = 'none';
+  });
+  $("#btnConocenos").click(function(){
+    document.getElementById('part2').style.display = 'none';
+    document.getElementById('part1').style.display = 'block';
+
+  });
+  $("#btnServicios").click(function(){
+    document.getElementById('part2').style.display = 'none';
+    document.getElementById('part1').style.display = 'block';
+
+  });
+
 });//fin ready
 
+function visible(){
+
+  if (part1){
+        part1 = false;
+  }
+  else{
+    part1 = true;
+  }
+}
 
 function click_in_service() {
   var name = "";

@@ -33,7 +33,7 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
     <div class="container">
-	<div id="hheader"></div>
+	<div class="header"></div>
 	<div id="ojos" class="row">
 	    <div id="logo" class="col-sm-3"></div>
 	    <div id="titulo_" class="col-sm-8">
@@ -58,10 +58,10 @@
             <div id="menuElements" class="collapse navbar-collapse navbar-ex1-collapse">
             	<div class="container-fluid col-sm-9">
 	                <ul class="nav navbar-nav">
-	                	<li class="active"><a href="#hheader">Bufete Aguilar</a></li>
+	                	<li><a href="#">Bufete Aguilar</a></li>
 					    <li><a id="btnConocenos" href="#conocenos">Conocenos</a></li>
 					    <li><a id="btnServicios" href="#servicios">Servicios</a></li>
-					    <li><a id="btnContato" href="#">Contacto</a></li>
+					    <li><a id="btnContacto" href="#contacto">Contacto</a></li>
 	                </ul>    
 	            </div>  
                 <div class="search-left col-sm-3">
@@ -84,8 +84,7 @@
 	</div>
     <!-- Main jumbotron for a primary marketing message or call to action -->
 
-      <!-- Example row of columns -->
-      <div class="row">
+      <div id='part1' class="row">
 	  
 	<div id="conocenos" class="row">
 	  <h1>Sobre Nosotros</h1>
@@ -103,7 +102,7 @@
 	<div id="sd" class="inf_serv_pro">
 <div id='navbar_servicios' class="btn-group btn-group-justified">
     <a href="#servicios" id='btn_volver' class="btn btn-default">Volver</a>
-    <a href="#" id='btn_contacto_serv' class="btn btn-default">Contactar</a>
+    <a href="#contacto" id='btn_contacto_serv' class="btn btn-default">Contactar</a>
   </div>
           <h1>Nombre del Area</h1>
 	  <h3>Descripcion del area</h3>
@@ -177,11 +176,49 @@
 	    </div> 
 	</div>
       </div>
+      <div id="part2">
+	<div id="contacto">
+	  <h1>Ponte en contacto con nosotros</h1>
+	  <form name='formulario' id='formulario' method='get'>
+	    <label for="nombre">Nombre: </label>
+	    <input type="text" id='nombre' placeholder="Nombre" required>
+	    <input type="text" placeholder="Apellido" required> <br>
+	    <label for="email">E-mail: </label>
+	    <input type="email" id='email' placeholder="Correo electronico" required><br>
+	    <label for="telefono">Telefono: </label>
+	    <input type="number" id='telefono' placeholder="Numero de celular" required><br>
+	    <label for="telefono">Ocupacion: </label>
+	    <input type="text" id='ocupacion' placeholder="A que se dedica?" required><br>
+	    <label>Sexo: </label>
+	    <input type="radio" id='rdo_masculino' name="sexo">Hombre
+	    <input type="radio" id='rdo_femenino' name="sexo">Mujer
+	    <input type="radio" id='rdo_noresponde' name="sexo">No responder<br>
+	    <label for="area">Area: </label>
+	    <select name="" id="">
+	      <option value=""></option>
+	      <option value="">Derecho laboral</option>
+	      <option value="">Derecho mercantil</option>
+	      <option value="">Derecho penal</option>
+	    </select><br>
+	    <label for="servicio">Servicio: </label>
+	    <select name="" id="">
+	      <option value=""></option>
+	      <option value="">Servicio 1</option>
+	      <option value="">Servicio 2</option>
+	      <option value="">Servicio 3</option>
+	    </select><br>
+
+	    <label for="mensaje">Mensaje: </label><br>
+	    <textarea id="mensaje" name="" cols="30" rows="10"></textarea><br>
+	    <input type="submit">
+	  </form>
+	</div>
+      </div>
 
       <hr>
 
       <footer>
-        <p>&copy; Company 2015</p>
+        <p>&copy; No seas la verga ...</p>
       </footer>
     </div> <!-- /container -->        <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')</script>
