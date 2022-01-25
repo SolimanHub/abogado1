@@ -1,14 +1,12 @@
 $(document).ready(function() {
   //boton volver en detalles del area
-  var part1 = false;
   $("#btn_volver").click(function(){
     document.getElementById('overlay').style.display = 'none';
   });
   $("#navbbar #menuElements").click(function() {
     document.getElementById('menuElements').classList.remove('in');
-  })
+  });
   //================
-
   $(".container_serv").click(function(){
     document.getElementById('overlay').style.display = 'flex';
   });

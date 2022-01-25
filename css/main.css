@@ -6,12 +6,17 @@
 :root {
     --espacio_div: 40rem;
 }
+#part1 {
+  display: none;
+}
 /*a*/
 /*b*/
 #boca {
     background: url("../img/banner.jpg");
     height: 300px;
+    margin-top: 0;
 } 
+
 /*c*/
 .container_serv {
   text-align: center;
@@ -29,8 +34,20 @@
     font-size: 5rem;
 }
 
+.contenedor-contacto{
+  font-family: 'Merriweather', serif;
+}
+
+#contacto {
+    display: block; 
+    margin-top: 3rem;
+    padding: 3rem;
+    border: solid;
+}
+
 #conocenos {
   font-family: 'Merriweather', serif;
+  padding: 1rem;
   margin-top: var(--espacio_div);
   text-align: center;
 }
@@ -50,6 +67,7 @@
 #conocenos #vision h2{
   font-family: 'Merriweather', serif;
 }
+
 /*d*/
 .inf_serv {
     display: none;
@@ -63,80 +81,6 @@
 /*g*/
 /*h*/
 /*i*/
-.inf_serv_pro {
-  background: #f8f8f8;
-  border-radius: 1rem;
-  box-shadow: 0px 0px 5px 0px rgba(0,0,0,.3); 
-  display: block;
-  padding: 3rem;
-  padding-top: 1rem;
-  position: absolute;
-  height: 50%;
-  width: 60%;
-}
-
-#logo {
-    height: 150px;
-    margin-left: 15px;
-    background: url("../img/logo.svg");
-    background-size: 90% 90%;
-    background-repeat:no-repeat;
-}
-
-#nariz {
-    margin: 0px;
-    padding: 0px; 
-    top: 0;
-    position: sticky;
-    z-index: 1000;
-    overflow: hidden;
-}
- 
-#navbbar {
-  background: #70767B;
-  font-family: 'Merriweather', serif;
-}
-
-.container_serv:hover {
-    text-align: center;
-    cursor: pointer;
-    margin: 5rem;
-}
-
-.con_icon_serv {
-    font-size: 5rem;
-}
-
-#boca {
-   /*border: solid;*/
-    background: url("../img/banner.jpg");
-    height: 300px;
-} 
-
-#conocenos {
-  padding: 1rem;
-}
-#conocenos #mision p{
-  font-family: 'Merriweather', serif;
-  text-align: justify; 
-  padding: 1rem;
-}
-#conocenos #mision h2{
-  font-family: 'Merriweather', serif;
-}
-#conocenos #vision p{
-  font-family: 'Merriweather', serif;
-  padding: 1rem;
-  text-align: justify; 
-}
-#conocenos #vision h2{
-  font-family: 'Merriweather', serif;
-}
-
-#servicios h1{
-  font-family: 'Merriweather', serif;
-}
-
 .inf_serv {
     display: none;
     position: absolute;
@@ -157,6 +101,9 @@
   width: 60%;
 }
 
+/*j*/
+/*k*/
+/*l*/
 #logo {
     height: 150px;
     margin-left: 15px;
@@ -165,10 +112,33 @@
     background-repeat:no-repeat;
 }
 
+/*m*/
 #menuElements ul li a{
   color: white;
   text-shadow: 0.1em 0.1em 0.2em black;
 }
+/*n*/
+#nariz {
+    position: sticky;
+    z-index: 1000;
+    overflow: hidden;
+}
+#navbbar {
+  background: #70767B;
+  font-family: 'Merriweather', serif;
+}
+#servicios h1{
+  font-family: 'Merriweather', serif;
+}
+
+#logo {
+    height: 150px;
+    margin-left: 15px;
+    background: url("../img/logo.svg");
+    background-size: 90% 90%;
+    background-repeat:no-repeat;
+}
+
 
 #nariz {
     margin: 0px;
