@@ -17,26 +17,20 @@ $(document).ready(function() {
     document.getElementById('part1').style.display = 'none';
   });
   $("#btnConocenos").click(function(){
-    document.getElementById('part2').style.display = 'none';
-    document.getElementById('part1').style.display = 'block';
-
+    visiblePart1();
   });
   $("#btnServicios").click(function(){
-    document.getElementById('part2').style.display = 'none';
-    document.getElementById('part1').style.display = 'block';
-
+    visiblePart1();
+  });
+  $("#home").click(function(){
+    visiblePart1();
   });
 
 });//fin ready
 
-function visible(){
-
-  if (part1){
-        part1 = false;
-  }
-  else{
-    part1 = true;
-  }
+function visiblePart1(){
+  document.getElementById('part2').style.display = 'none';
+  document.getElementById('part1').style.display = 'block';
 }
 
 function click_in_service() {

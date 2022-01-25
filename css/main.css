@@ -6,11 +6,13 @@
 :root {
     --espacio_div: 40rem;
 }
+/*a*/
+/*b*/
 #boca {
     background: url("../img/banner.jpg");
     height: 300px;
 } 
-
+/*c*/
 .container_serv {
   text-align: center;
   font-family: 'Merriweather', serif;
@@ -48,11 +50,7 @@
 #conocenos #vision h2{
   font-family: 'Merriweather', serif;
 }
-
-#servicios h1{
-  font-family: 'Merriweather', serif;
-}
-
+/*d*/
 .inf_serv {
     display: none;
     position: absolute;
@@ -60,7 +58,11 @@
     background: red; 
     z-index: 1000;
 }
-
+/*e*/
+/*f*/
+/*g*/
+/*h*/
+/*i*/
 .inf_serv_pro {
   background: #f8f8f8;
   border-radius: 1rem;
@@ -163,6 +165,11 @@
     background-repeat:no-repeat;
 }
 
+#menuElements ul li a{
+  color: white;
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+
 #nariz {
     margin: 0px;
     padding: 0px; 
@@ -205,13 +212,16 @@
   width: 100%;
   right:0;
 }
+
 #ojos #titulo_ h1{
   font-size: 6rem;
   font-family: 'Roboto Mono', monospace;
+  text-shadow: 0.1em 0.1em 0.2em black;
 }
 
 #ojos #titulo_ p{
   font-family: 'Roboto', sans-serif;
+  text-shadow: 0.1em 0.1em 0.2em #F0FFFF;
 }
 
 #servicios{
@@ -220,7 +230,10 @@
     position: relative;
     text-align: center;
 }
- 
+#servicios h1{
+  font-family: 'Merriweather', serif;
+}
+
 #sd {
     display: block; 
     overflow-y: scroll;
