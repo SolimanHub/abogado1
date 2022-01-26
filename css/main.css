@@ -35,7 +35,16 @@
 }
 
 .contenedor-contacto{
+  display: grid;
+  grid-template-columns: repeat(7, 7fr);
+  left: 50%;
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
   font-family: 'Merriweather', serif;
+}
+.contacto_inf{
+  grid-column: 1 / 8;
+  grid-row: 1;
 }
 
 #contacto {
@@ -67,15 +76,7 @@
 #conocenos #vision h2{
   font-family: 'Merriweather', serif;
 }
-
 /*d*/
-.inf_serv {
-    display: none;
-    position: absolute;
-    top: 0%;
-    background: red; 
-    z-index: 1000;
-}
 /*e*/
 /*f*/
 /*g*/
